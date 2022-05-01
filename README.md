@@ -65,11 +65,11 @@ Mainnet
 ```python
 python3 snapshot-finder.py --snapshot_path $HOME/solana/validator-ledger
 ``` 
-`$HOME/solana/validator-ledger/` - path to your `validator-ledger`
+`$HOME/solana/ledger/` - path to your `validator-ledger`
 
 TdS  
 ```python
-python3 snapshot-finder.py --snapshot_path $HOME/solana/validator-ledger -r http://api.testnet.solana.com
+python3 snapshot-finder.py --snapshot_path $HOME/solana/ledger -r http://api.testnet.solana.com
 ``` 
 
 ### Run via docker  
