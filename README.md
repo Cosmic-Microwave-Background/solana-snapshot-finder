@@ -63,7 +63,7 @@ sudo apt-get update \
 Start script  
 Mainnet  
 ```python
-python3 snapshot-finder.py --snapshot_path $HOME/solana/validator-ledger
+python3 snapshot-finder.py --snapshot_path $HOME/solana/ledger
 ``` 
 `$HOME/solana/ledger/` - path to your `validator-ledger`
 
